@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="container p-3">
+    <div class="bai1">
+      <h1>Bai 1</h1>
+      <div class="form-group">
+        <label for="">Diem chuan</label>
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="diem-chuan"
+          aria-describedby="helpId"
+          placeholder=""
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Diem thi mon thu nhat</label>
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="mon-thu-nhat"
+          aria-describedby="helpId"
+          placeholder=""
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Diem thi mon thu hai</label>
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="mon-thu-hai"
+          aria-describedby="helpId"
+          placeholder=""
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Diem thi mon thu ba</label>
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="mon-thu-ba"
+          aria-describedby="helpId"
+          placeholder=""
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Khu vuc uu tien</label>
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="khu-vuc"
+          aria-describedby="helpId"
+          placeholder=""
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Doi tuong uu tien</label>
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="doi-tuong"
+          aria-describedby="helpId"
+          placeholder=""
+        />
+      </div>
+      <button class="btn btn-success" id="tinh-diem">Tinh diem</button><br />
+      <p id="ket-qua"></p>
+    </div>
+    <br />
+    <div class="bai2">
+      <h1>Bai 2</h1>
+      <div class="form-group">
+        <label for="">So Kw</label>
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="Kw"
+          aria-describedby="helpId"
+          placeholder=""
+        />
+      </div>
+      <button class="btn btn-success" id="tinh-tien-dien">Tinh tien dien</button
+      ><br /><br />
+      <p id="tien-dien"></p>
+    </div>
+    <br />
+    <div class="bai3">
+      <h1>Bai 3</h1>
+      <div class="form-group">
+        <label for="">Tong thu nhap nam (trieu)</label>
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="thu-nhap"
+          aria-describedby="helpId"
+          placeholder=""
+        />
+      </div>
+      <div class="form-group">
+        <label for="">So nguoi phu thuoc</label>
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="so-nguoi"
+          aria-describedby="helpId"
+          placeholder=""
+        />
+      </div>
+      <button class="btn btn-success" id="tinh-thue">Tinh thue</button
+      ><br /><br />
+      <p id="xuat-thue"></p>
+    </div>
+    <br />
+    <div class="bai4">
+      <h1>Bai 4</h1>
+      <p>Loai khach hang:</p>
+      <ul style="list-style: none; display: flex">
+        <li class="type" style="margin-right: 100px">
+          <input type="radio" id="nhadan" name="selector" value="nhadan" />
+          <label for="uberX">Nha dan</label>
+          <div class="check"></div>
+        </li>
+
+        <li class="type">
+          <input
+            type="radio"
+            id="doanhnghiep"
+            name="selector"
+            value="doanhnghiep"
+          />
+          <label for="uberSUV">Doanh nghiep</label>
+          <div class="check"></div>
+        </li>
+      </ul>
+      <div class="form-group">
+        <label for="">So ket noi</label>
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="ket-noi"
+          aria-describedby="helpId"
+          placeholder=""
+        />
+      </div>
+      <div class="form-group">
+        <label for="">So kenh cao cap</label>
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id="kenh"
+          aria-describedby="helpId"
+          placeholder=""
+        />
+      </div>
+      <button class="btn btn-success" id="tinh-tien">Tinh tien cap</button
+      ><br /><br />
+      <p id="tien-cap"></p>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./bai1.js"></script>
+    <script src="./bai2.js"></script>
+    <script src="./bai3.js"></script>
+    <script src="./bai4.js"></script>
+  </body>
+</html>
